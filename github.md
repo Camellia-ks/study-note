@@ -1,3 +1,35 @@
+## 上传github
+
+1.在github上创建仓库（不要添加readme文件）
+
+2.在本地要上传的文件夹下打开open git bash here
+
+3.初始化仓库`git init`
+
+4.把文件添加到版本库`git add <文件名>`
+
+5.将本地的版本库与github上的仓库关联
+
+​	例如：`git remote add origin git@github.com:Camellia-ks/study-note.git`
+
+6.上传
+
+`git push -u origin <分支名>`
+
+​	**注意**：你的分支![image-20231007112359307](C:\Users\lenovo\AppData\Roaming\Typora\typora-user-images\image-20231007112359307.png)
+
+​	可使用`git branch -m <分支名>`来更改分支
+
+​	    使用`git branch -a`查看所有分支
+
+​		使用`git branch`查看当前分支
+
+
+
+
+
+
+
 版本控制系统肯定有某个命令可以告诉我们历史记录，在Git中，我们用git log命令查看：
 
 ```c
@@ -77,7 +109,7 @@ eaadf4e HEAD@{4}: commit (initial): wrote a readme file
 在本地的learngit仓库下运行命令：
 
 ```
-$gitremoteaddorigingit@github.com:Camellia-ks/Quadcopter-based-on-Air001.git
+$git remote add origin git@github.com:Camellia-ks/Quadcopter-based-on-Air001.git
 ```
 
 添加后，远程库的名字就是origin，这是Git默认的叫法，也可以改成别的，但是origin这个名字一看就知道是远程库。
