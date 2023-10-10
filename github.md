@@ -35,6 +35,12 @@ git commit -m "wrote a readme file"
 
 ​		使用`git branch`查看当前分支
 
+8.文件拉取
+
+```c
+git pull --allow-unrelated-histories
+```
+
 
 
 
