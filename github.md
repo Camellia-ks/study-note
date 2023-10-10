@@ -8,11 +8,22 @@
 
 4.把文件添加到版本库`git add <文件名>`
 
-5.将本地的版本库与github上的仓库关联
+5.用命令git commit告诉Git，把文件提交到仓库
+
+```c
+git commit -m "wrote a readme file"
+ [master (root-commit) eaadf4e] wrote a readme file
+ 1 file changed, 2 insertions(+)
+ create mode 100644 readme.txt
+```
+
+​	`git commit`命令，`-m`后面输入的是本次提交的说明，可以输入任意内容，当然最好是有意义的，这样你就能从历史记录里方便地找到改动记录。
+
+6.将本地的版本库与github上的仓库关联
 
 ​	例如：`git remote add origin git@github.com:Camellia-ks/study-note.git`
 
-6.上传
+7.上传
 
 `git push -u origin <分支名>`
 
